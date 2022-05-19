@@ -134,6 +134,7 @@ public class RmqSourceTask extends SourceTask {
     @Override
     public void init(KeyValue config) {
         ConfigUtil.load(config, this.config);
+        log.info("TaskConfig: " + this.config);
     }
 
     @Override

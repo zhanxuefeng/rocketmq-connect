@@ -16,6 +16,9 @@
  */
 package org.apache.rocketmq.replicator.config;
 
+import lombok.ToString;
+
+@ToString
 public class TaskConfig {
 
     private String sourceCluster;
